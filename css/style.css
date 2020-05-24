@@ -1,9 +1,6 @@
 h1 {
     text-align: center;
   }
-  div {
-    background-color: #f0f8ff;
-  }
   
   * {
     box-sizing: border-box;
@@ -11,11 +8,14 @@ h1 {
   
   div section {
     width: 32%;
-    hight: 200px;
+    hight: 150px;
     border: 1px solid black;
     float: left;
     margin-right: 10px;
     margin-bottom: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    background-color: #f8f4ff;
   }
   
   p {
@@ -30,11 +30,11 @@ h1 {
   }
     
     #section1 {
-      background-color: #efdecd;
+      background-color: #ffc1cc;
     }
     #section2 {
-      background-color: #bcd4e6;
+      background-color: #fb607f;
     }
     #section3 {
-      background-color: #915c83;
+      background-color: #de3163;
     }
