@@ -7,7 +7,6 @@ h1 {
   }
   
   div section {
-    width: 32%;
     hight: 150px;
     border: 1px solid black;
     float: left;
@@ -29,33 +28,51 @@ h1 {
     margin-top: 0;
   }
     
-    #section1 {
+    #p1 {
       background-color: #ffc1cc;
     }
-    #section2 {
+    #p2 {
       background-color: #fb607f;
     }
-    #section3 {
+    #p3 {
       background-color: #de3163;
     }
-
-/******** Desktop ********/
-@media (min-width: 992px){
-    div section {
+  
+  /******** Desktop ********/
+  @media (min-width: 992px){
+    #section1 {
+      width: 32%;
+    }
+    #section2 {
+      width: 32%;
+    }
+    #section3 {
       width: 32%;
     }
   }
   
   /******** Tablet ********/
   @media (min-width: 991px) and (max-width: 768) {
-    div section {
+    #section1 {
       width: 49%;
+    }
+    #section2 {
+      width: 49%;
+    }
+    #section3 {
+      width: 100%;
     }
   }
   
   /******** Mobile ********/
   @media (max-width: 767) {
-    div section {
+    #section1 {
+      width: 100%;
+    }
+    #section2 {
+      width: 100%;
+    }
+    #section3 {
       width: 100%;
     }
   }
