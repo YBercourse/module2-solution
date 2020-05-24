@@ -1,0 +1,21 @@
+div {
+    background-color: #f0f8ff;
+  }
+  section {
+    width: 50%;
+    border: 1px solid black;
+    float: left;
+  }
+  
+  #section1 {
+    background-color: #efdecd;
+  }
+  #section2 {
+    background-color: #bcd4e6;
+  }
+  
+  #section3 {
+      background-color: #915c83;
+    clear: left;
+  }
+  

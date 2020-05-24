@@ -2,9 +2,13 @@ div {
     background-color: #f0f8ff
 }
 div section {
+   background-color: #f2f3f4;
+}
+section {
     width: initial;
     height: 50px;
     border: 1px solid black;
+    margin-right: 10px;
 }
 #section1 {
     background-color: #efdecd;
