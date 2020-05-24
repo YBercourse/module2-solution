@@ -1,21 +1,21 @@
 div {
     background-color: #f0f8ff
 }
-div section {
-   background-color: #f2f3f4;
-}
-section {
-    width: initial;
-    height: 50px;
+div {
+    background-color: #f0f8ff;
+  }
+  section {
+    width: 50%;
     border: 1px solid black;
-    margin-right: 10px;
-}
-#section1 {
+    float: left;
+  }
+  
+  #section1 {
     background-color: #efdecd;
-}
-#section2 {
+  }
+  #section2 {
     background-color: #bcd4e6;
-}
-#section3 {
+  }
+  #section3 {
     background-color: #915c83;
-}
+  }
