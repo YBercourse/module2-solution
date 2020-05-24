@@ -6,3 +6,12 @@ div section {
     height: 50px;
     border: 1px solid black;
 }
+#section1 {
+    background-color: #efdecd;
+}
+#section2 {
+    background-color: #bcd4e6;
+}
+#section3 {
+    background-color: #915c83;
+}
