@@ -1,20 +1,40 @@
-div {
-    background-color: #f0f8ff
-}
-div {
+h1 {
+    text-align: center;
+  }
+  div {
     background-color: #f0f8ff;
   }
-  section {
-    width: 50%;
-    border: 1px solid black;
+  
+  * {
+    box-sizing: border-box;
   }
   
-  #section1 {
-    background-color: #efdecd;
+  div section {
+    width: 32%;
+    hight: 200px;
+    border: 1px solid black;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
   }
-  #section2 {
-    background-color: #bcd4e6;
+  
+  p {
+    width: 100px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+    display: inline;
+    float: right;
+    position: relative;
+    margin-top: 0;
   }
-  #section3 {
-    background-color: #915c83;
-  }
+    
+    #section1 {
+      background-color: #efdecd;
+    }
+    #section2 {
+      background-color: #bcd4e6;
+    }
+    #section3 {
+      background-color: #915c83;
+    }
