@@ -1,3 +1,8 @@
 div {
     background-color: #f0f8ff
 }
+section {
+    width: initial;
+    height: 50px;
+    border: 1px solid black;
+}
