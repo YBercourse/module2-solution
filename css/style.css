@@ -38,3 +38,24 @@ h1 {
     #section3 {
       background-color: #de3163;
     }
+
+/******** Desktop ********/
+@media (min-width: 992px){
+    div section {
+      width: 32%;
+    }
+  }
+  
+  /******** Tablet ********/
+  @media (min-width: 991px) and (max-width: 768) {
+    div section {
+      width: 49%;
+    }
+  }
+  
+  /******** Mobile ********/
+  @media (max-width: 767) {
+    div section {
+      width: 100%;
+    }
+  }
