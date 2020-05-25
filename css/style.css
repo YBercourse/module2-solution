@@ -7,11 +7,13 @@ h1 {
   }
   
   div section {
-    height: 150px;
+    hight: 150px;
     border: 1px solid black;
     float: left;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     padding-left: 10px;
     padding-bottom: 10px;
     background-color: #f8f4fa;
@@ -38,54 +40,41 @@ h1 {
       background-color: #de3163;
     }
   
-  /******** Desktop ********/
+   /******** Desktop ********/
   @media (min-width: 992px){
-    div section #section1 {
-      width: 32%;
+      #section1 {
+        width: 32%;
+      }
+      #section2 {
+        width: 32%;
+      }
+      #section3 {
+        width: 32%;
+      }
     }
-    div section #section2 {
-      width: 32%;
+    
+    /******** Tablet ********/
+    @media (min-width: 768px) and (max-width: 991px) {
+      #section1 {
+        width: 48%;
+      }
+      #section2 {
+        width: 48%;
+      }
+      #section3 {
+        width: 97%;
+      }
     }
-    div section #section3 {
-      width: 32%;
+    
+    /******** Mobile ********/
+    @media (max-width: 767) {
+      #section1 {
+        width: 100%;
+      }
+      #section2 {
+        width: 100%;
+      }
+      #section3 {
+        width: 100%;
+      }
     }
-  }
-  
- /******** Desktop ********/
-@media (min-width: 992px){
-    #section1 {
-      width: 33.3%;
-    }
-    #section2 {
-      width: 33.3%;
-    }
-    #section3 {
-      width: 33.3%;
-    }
-  }
-  
-  /******** Tablet ********/
-  @media (min-width: 768px) and (max-width: 991px) {
-    #section1 {
-      width: 50%;
-    }
-    #section2 {
-      width: 50%;
-    }
-    #section3 {
-      width: 100%;
-    }
-  }
-  
-  /******** Mobile ********/
-  @media (max-width: 767) {
-    #section1 {
-      width: 100%;
-    }
-    #section2 {
-      width: 100%;
-    }
-    #section3 {
-      width: 100%;
-    }
-  }
