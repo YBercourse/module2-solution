@@ -7,14 +7,14 @@ h1 {
   }
   
   div section {
-    hight: 150px;
+    height: 150px;
     border: 1px solid black;
     float: left;
     margin-right: 10px;
     margin-bottom: 10px;
     padding-left: 10px;
     padding-bottom: 10px;
-    background-color: #f8f4ff;
+    background-color: #f8f4fa;
   }
   
   p {
@@ -40,39 +40,39 @@ h1 {
   
   /******** Desktop ********/
   @media (min-width: 992px){
-    #section1 {
+    div section #section1 {
       width: 32%;
     }
-    #section2 {
+    div section #section2 {
       width: 32%;
     }
-    #section3 {
+    div section #section3 {
       width: 32%;
     }
   }
   
   /******** Tablet ********/
   @media (min-width: 991px) and (max-width: 768) {
-    #section1 {
+    div section #section1 {
       width: 49%;
     }
-    #section2 {
+    div section #section2 {
       width: 49%;
     }
-    #section3 {
+    div section #section3 {
       width: 100%;
     }
   }
   
   /******** Mobile ********/
   @media (max-width: 767) {
-    #section1 {
+    div section #section1 {
       width: 100%;
     }
-    #section2 {
+    div section #section2 {
       width: 100%;
     }
-    #section3 {
+    div section #section3 {
       width: 100%;
     }
   }
