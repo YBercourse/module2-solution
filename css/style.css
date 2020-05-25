@@ -51,28 +51,41 @@ h1 {
     }
   }
   
+ /******** Desktop ********/
+@media (min-width: 992px){
+    #section1 {
+      width: 33.3%;
+    }
+    #section2 {
+      width: 33.3%;
+    }
+    #section3 {
+      width: 33.3%;
+    }
+  }
+  
   /******** Tablet ********/
   @media (min-width: 768px) and (max-width: 991px) {
-    div section #section1 {
-      width: 48%;
+    #section1 {
+      width: 50%;
     }
-    div section #section2 {
-      width: 48%;
+    #section2 {
+      width: 50%;
     }
-    div section #section3 {
+    #section3 {
       width: 100%;
     }
   }
   
   /******** Mobile ********/
   @media (max-width: 767) {
-    div section #section1 {
+    #section1 {
       width: 100%;
     }
-    div section #section2 {
+    #section2 {
       width: 100%;
     }
-    div section #section3 {
+    #section3 {
       width: 100%;
     }
   }
